@@ -26,7 +26,7 @@ except ImportError:
 # ==============================
 # CONFIG
 # ==============================
-OPENROUTER_API_KEY = "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"
+OPENROUTER_API_KEY = "Put your open router api here."
 OPENROUTER_URL = "https://openrouter.ai/api/v1/chat/completions"
 MODEL_NAME = "mistralai/mistral-7b-instruct"
 
@@ -288,3 +288,4 @@ if __name__ == "__main__":
     loop.create_task(akane_loop(gui))
     with loop:
         loop.run_forever()
+
